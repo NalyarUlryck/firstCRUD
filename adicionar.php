@@ -164,7 +164,7 @@ if ($_SESSION['aviso']) {
 <div class="modal modal-sheet position-static d-block bg-body-secondary p-4 py-md-5" tabindex="-1" role="dialog" id="modalSignin">
   <div class="modal-dialog" role="document">
     <div class="modal-content rounded-4 shadow" >
-      <div class="modal-header p-5 pb-4 border-bottom-0 ">
+      <div class="modal-header p-5 pb-4 border-bottom-0">
         <h1 class="fw-bold mb-0 fs-2">Add Users</h1>
         <a href="index.php"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></a>
       </div>
@@ -190,7 +190,7 @@ if ($_SESSION['aviso']) {
   </div>
 </div>
 
-<div class="b-example-divider"></div>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
     

@@ -1,7 +1,6 @@
 <?php 
     
     session_start();
-
     require "databaseConnection/backend.php";
 
     if ($_SESSION['aviso']) {
@@ -11,10 +10,9 @@
 
     if (filter_input(INPUT_GET,'id') && filter_input(INPUT_GET,'id') != null){
         $id = filter_input(INPUT_GET,'id'); // varivel que vai receber o ID
-        var_dump($id);
     }else {
         $id = $_SESSION['id'];
-        var_dump($id);
+        
     }
 
     $info = []; //Lista que vai receber os valores a serem substituidos
@@ -224,7 +222,7 @@
   </div>
 </div>
 
-<div class="b-example-divider"></div>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
     
